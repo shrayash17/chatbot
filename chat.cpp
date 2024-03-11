@@ -14,17 +14,17 @@ void displayInfo(const std::unordered_map<std::string, std::string>& constitutio
 int main() {
     std::unordered_map<std::string, std::string> constitutionInfo;
 
-    // Initialize Constitution of India information
-    constitutionInfo["Preamble"] = "Introduction to the Constitution.  The world’s longest constitution is the Indian’s constitution. At its commencement, it had 395 articles in 22 parts and 8 schedules. It consists of approximately 145,000 words, making it the second largest active constitution in the world. Currently, it has a preamble, 25 parts with 12 schedules, 5 appendices, 448 articles, and 101 amendments.";
-    constitutionInfo["Fundamental Rights"] = "Basic rights of citizens. Right to equality, including equality before law, prohibition of discrimination on grounds of religion, race, caste, sex or place of birth, and equality of opportunity in matters of employment.";
-    constitutionInfo["Directive Principles"] = "Guidelines for the state.";
-    constitutionInfo["Fundamental Duties"] = "Moral obligations for citizens.";
-    constitutionInfo["President of India"] = "Ceremonial head and supreme commander of the armed forces. Droupadi Murmu";
-    constitutionInfo["Parliament"] = "Bicameral legislature with Lok Sabha and Rajya Sabha.";
-    constitutionInfo["Judiciary"] = "Independent judiciary with Supreme Court, High Courts, and subordinate courts.";
-    constitutionInfo["State Governments"] = "Governance at the state level with Chief Minister as the head.";
-    constitutionInfo["Union Territories"] = "Directly governed by the Central Government. There are currently eight union territories in India, namely, Andaman and Nicobar Islands, Chandigarh, Dadra and Nagar Haveli and Daman and Diu, Delhi, Jammu and Kashmir, Ladakh, Lakshadweep and Puducherry.";
-    constitutionInfo["Amendments"] = "Process to modify and adapt the Constitution.";
+constitutionInfo["Preamble"] = "Introduction to the Constitution. The world’s longest constitution is the Indian’s constitution. At its commencement, it had 395 articles in 22 parts and 8 schedules. It consists of approximately 145,000 words, making it the second largest active constitution in the world. Currently, it has a preamble, 25 parts with 12 schedules, 5 appendices, 448 articles, and 101 amendments.\n\n";
+constitutionInfo["Fundamental Rights"] = "Basic rights of citizens. Right to equality, including equality before law, prohibition of discrimination on grounds of religion, race, caste, sex or place of birth, and equality of opportunity in matters of employment.\n\n";
+constitutionInfo["Directive Principles"] = "Guidelines for the state.\n\n";
+constitutionInfo["Fundamental Duties"] = "Moral obligations for citizens.\n\n";
+constitutionInfo["President of India"] = "Ceremonial head and supreme commander of the armed forces. Droupadi Murmu\n\n";
+constitutionInfo["Parliament"] = "Bicameral legislature with Lok Sabha and Rajya Sabha.\n\n";
+constitutionInfo["Judiciary"] = "Independent judiciary with Supreme Court, High Courts, and subordinate courts.\n\n";
+constitutionInfo["State Governments"] = "Governance at the state level with Chief Minister as the head.\n\n";
+constitutionInfo["Union Territories"] = "Directly governed by the Central Government. There are currently eight union territories in India, namely, Andaman and Nicobar Islands, Chandigarh, Dadra and Nagar Haveli and Daman and Diu, Delhi, Jammu and Kashmir, Ladakh, Lakshadweep and Puducherry.\n\n";
+constitutionInfo["Amendments"] = "Process to modify and adapt the Constitution.\n\n";
+
 
     // Greeting
     std::cout << "Hello! I am your Constitution of India chatbot. How can I assist you today?\n";
